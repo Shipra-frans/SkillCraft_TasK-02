@@ -5,9 +5,9 @@ A fun and interactive Number Guessing Game built using HTML, CSS, and JavaScript
 🕹️ How to Play:
 
 Choose a difficulty level:
-Easy – 10 attempts
-Medium – 6 attempts
-Hard – 4 attempts
+Easy – 10 attempts.
+Medium – 6 attempts.
+Hard – 4 attempts.
 Enter a number between 1 and 100.
 The game gives feedback:
 Too high and gives the remaing attempts left!
@@ -16,17 +16,17 @@ Correct!
 Win by guessing the correct number before you run out of attempts!
 
 🔧 Features
-🎮 Three difficulty levels with different attempt limits
-🔄 Automatic game reset after win/loss
-🧠 Random number generation from 1 to 100
-📱 Responsive and mobile-friendly design
-🎨 Clean and intuitive user interface
+🎮 Three difficulty levels with different attempt limits.
+🔄 Automatic game reset after win/loss.
+🧠 Random number generation from 1 to 100.
+📱 Responsive and mobile-friendly design.
+🎨 Clean and intuitive user interface.
 
 🖥️ Technologies Used:
 
-HTML5 – For the game structure
-CSS3 – For styling and layout
-JavaScript (Vanilla) – For the game logic and interactivity
+HTML5 – For the game structure.
+CSS3 – For styling and layout and to have best experience in UI.
+JavaScript (Vanilla) – For the game logic and interactivity.
 
 🚀 Getting Started
 Clone the repository:

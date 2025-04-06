@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="shipra francisca" content="Number Guessing Game" />
+        <link rel="icon" href="./question.webp" type="image/x-icon"/>
+        <title>Number Guessing Game</title>
+        <link rel="stylesheet" href="./game.css">
+    </head>
+    <body>
+        <img id="que" src="./question-mark.gif">
+        <h1><b>Number Guessing Game</b></h1>
+        <label id="lab">Welcome!! To The Game!!</label>
+        <p><pre><b>Herein the player will be given with chances
+            to guess the number from <span id="range">1-100</span>
+
+          @ In Easy: 10 chances to guess
+          @ In Medium : 6 chances to guess 
+          @ In Hard : 4 chances to guess </b></pre></p>
+        <br>
+        <button id="easy" onclick="startGame('easy')">Easy</button>
+        <button id="medium" onclick="startGame('medium')">Medium</button>
+        <button id="hard" onclick="startGame('hard')">Hard</button>
+        <label for="entring value" id="lb4">Enter a Guess :</label>
+        <input type="number" id="guessInput" placeholder="attempt" disabled>
+        <button id="submitGuess" onclick="checkGuess()" disabled >Guess</button>
+        <p id="message">Choose a difficulty level to start the game.</p>
+        <img id="no" src="./no 1.gif">
+        <script src="./game.js"></script>
+
+        
+</html>

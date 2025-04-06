@@ -1,0 +1,199 @@
+#que{
+    bottom:70%;
+    left: 10%;
+    margin-right: 90%;
+    margin-top: 0%;
+    position:absolute;
+    background: transparent;
+    height: 180px;
+    width: 180px;
+    transform:translateY(180deg) ;
+}
+
+h1{
+    text-align: center;
+    font-size:5cqmax;
+    color:white;
+    text-shadow: 5px 3px  black, 3px 4px chartreuse;
+}
+
+html{
+    background-color: blueviolet;
+    background-image: url(./background.gif);
+    background-repeat:var(5cqmax);
+}
+
+#lab{
+    margin-left: 39%;
+    padding:15px;
+    align-items:center;
+    font-size: 32px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 400px;
+    height:200px;
+    border-radius:20px;
+    background-color:crimson;
+    color: black;
+    text-shadow: 4px 2px aliceblue, 2px 3px blueviolet;
+}
+
+#easy{
+    width: 160px;
+    height: 50px;
+    font-size: 30px;
+    margin-left: 35%;
+    position:relative;
+    align-items: center;
+    background-color:powderblue;
+    font-family:Cambria, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    border: 2px dashed black;
+    text-overflow: clip;
+    color: black;
+    text-shadow: 4px 2px aliceblue, 2px 3px olivedrab;
+    box-shadow: 4px 4px darkgrey;
+}
+
+#easy:active,#medium:active,#hard:active{
+    box-shadow: 3px 5px greenyellow;
+    transform:translateY(3px);
+}
+
+#medium{
+    width: 160px;
+    height: 50px;
+    font-size: 30px;
+    position: relative;
+    margin-left:3%;
+    align-items: center;
+    background-color: lightcoral;
+    font-family:Cambria, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    border: 2px dashed black;
+    text-overflow: clip;
+    color: black;
+    text-shadow: 4px 2px aliceblue, 2px 3px olivedrab;
+    box-shadow: 4px 4px darkgrey;
+}
+
+#hard{
+    width: 160px;
+    height: 50px;
+    font-size: 30px;
+    position: relative;
+    margin-left:3%;
+    align-items: center;
+    background-color:peru;
+    font-family:Cambria, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    border: 2px dashed black;
+    text-overflow: clip;
+    color: black;
+    text-shadow: 4px 2px aliceblue, 2px 3px olivedrab;
+    box-shadow: 4px 4px darkgrey;
+}
+
+pre{
+    position:absolute;
+    padding: 1%;
+    width:370px;
+    height:200px;
+    color:black;
+    font-size:20px;
+    font-family:serif;
+    margin-top: 2%;
+    margin-left:1%;
+    background-color:antiquewhite;
+    box-shadow:3px 3px 2px 3px burlywood ; 
+    border:5px double goldenrod;
+    border-radius: 5px;
+    border-style: ridge;
+    color:black;
+}
+
+#lb4{
+    color:bisque;
+    position:relative;
+    margin-left: 35%;
+    padding-top:4% ;
+    align-items:center;
+    font-size: 60px;
+    display: inline-block;
+    text-shadow: 4px 4px firebrick , 2px 1px gainsboro ;
+
+    
+}
+
+#guessInput{
+    width: 172px;
+    height: 20px;
+    padding: 1%;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left:1%;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border:4px ridge  rgb(136, 39, 136) ;
+    box-shadow:3px 3px 2px 3px ;
+    color:black;
+    border-radius:10px;
+    transform:translateY(60%);
+    transform: scaleY(1.5);
+
+}
+
+#submitGuess{
+    width: 130px;
+    height: 50px;
+    margin-top: 5%;
+    display: inline;
+    margin-left:1%;
+    border: 2px slice black ;
+    box-shadow:2px 3px 2px 1px ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    background-color:blueviolet;
+    color:black;
+    border-radius: 6px;
+
+}
+
+#submitGuess:hover{
+    background: linear-gradient(to right, #f44336, #1ee9e9);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+#submitGuess:active{
+    box-shadow: 3px 5px thistle;
+    transform:translateY(3px);
+}
+
+#message {
+    width:300px;
+    height:90px;
+    position: relative;
+    margin-left: 38%;
+    padding: 1%;
+    display: inline-block;
+    color:powderblue;
+    text-shadow: 3px 1px  black, 1px 2px red;
+    font-family:serif;
+    font-style:bolder;
+    font-size: 30px;
+    backdrop-filter: blur(5px);
+    border: 2px ridge powderblue;
+    border-radius: 5px;
+    background-color:transparent;
+    margin-top: 4%;
+}
+
+#no{
+    margin-left:18% ;
+    margin-top:-2%;
+    position: absolute;
+    display:inline;
+    width:222px;
+    height:258px;
+}
+
